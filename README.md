@@ -1,0 +1,4 @@
+puppet-recipes
+==============
+
+Puppet recipes
