@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    {
+      "version_requirement": ">= 0.3.0",
+      "name": "puppetlabs/mysql"
+    },
+    {
+      "version_requirement": ">= 0.0.4",
+      "name": "puppetlabs/apache"
+    },
+    {
+      "version_requirement": ">= 0.0.2",
+      "name": "puppetlabs/passenger"
+    }
+  ],
+  "source": "git://github.com/fsalum/puppetlabs-dashboard.git",
+  "types": [
+
+  ],
+  "license": "Apache 2.0",
+  "project_page": "https://github.com/fsalum/puppetlabs-dashboard",
+  "checksums": {
+    "spec/spec_helper.rb": "7b92473b233eb579006846e469395abf",
+    "spec/unit/face/dashboard_spec.rb": "79044f25be47012d183673c78a6f060c",
+    "manifests/passenger.pp": "07e5a2e1ca6bcf927bed32745c3f67b6",
+    "manifests/params.pp": "b68ac06e51a33aa84af691c51c5f1e3e",
+    "CHANGELOG": "198c17482b15f51f7beaa5d50a511bc3",
+    "lib/puppet/face/dashboard.rb": "cf28320f6d4394cdfcb9419bc0c92fe4",
+    "LICENSE": "1c3d056325bedcfadb0deb431fe1ba82",
+    "lib/puppet/application/dashboard.rb": "d98bf7f6525512eb78ecfdd76691cc17",
+    "templates/config-dashboard-workers.erb": "ca70ed2cb37d45a8faf416e057150ad3",
+    "templates/logrotate.erb": "e6d5f93aef11d7d3f2432694601c2e3a",
+    "templates/database.yml.erb": "70e445f1ab59bef5378995534b5f63dd",
+    "tests/init.pp": "1712c9908d7a5b6fef683a293fc0c1ac",
+    "README.markdown": "40786648ba2d274db76a1368728a72c1",
+    "TODO": "83a2a698459d070288963fb9f930752d",
+    "lib/puppet/dashboard/classifier.rb": "8f4e190ad9c9614c5a16d702bf73a888",
+    "templates/config.RedHat.erb": "0a5a6c0a80f65daf4485c80e30cf7dc6",
+    "templates/config.Debian.erb": "17708fc18cba71d0eab8c5506938764d",
+    "spec/spec.opts": "e27aed91d33ecc4417f97ff0365ece35",
+    "templates/passenger-vhost.erb": "94bfef1629f2d106145dcfc83f6acaa7",
+    "Modulefile": "f698fe6dfb01f86fe86ac4cb22209606",
+    "manifests/init.pp": "a3b1cfd3eeb17fd81100c5629c761e2c"
+  },
+  "description": "Module to configure the Puppet Dashboard that also includes a Puppet Face that can be use to interact with the Dashboard from the CLI",
+  "version": "0.0.2",
+  "name": "fsalum-dashboard",
+  "summary": "Puppet module for the Puppet Dashboard",
+  "author": "puppetlabs"
+}

@@ -1,0 +1,7 @@
+name    'zack-fundamentals'
+version '1.1.1'
+source 'https://github.com/puppetlabs/puppetlabs-training-bootstrap/tree/master/modules'
+author 'puppetlabs'
+license 'Apache License, Version 2.0'
+summary 'Module to aid in Puppet EDU training environment creation'
+dependency 'ripienaar/concat', '>= 0.1.0'
