@@ -1,0 +1,29 @@
+{
+  "name": "ghoneycutt-mailprotection",
+  "dependencies": [
+    {
+      "name": "ghoneycutt/amavisd_clamav",
+      "version_requirement": ">= 1.0.0"
+    },
+    {
+      "name": "ghoneycutt/sqlgrey",
+      "version_requirement": ">= 1.0.0"
+    }
+  ],
+  "author": "",
+  "license": "",
+  "version": "1.0.0",
+  "types": [
+
+  ],
+  "checksums": {
+    "spec/spec_helper.rb": "ca19ec4f451ebc7fdb035b52eae6e909",
+    "README": "43d29f5a60955d110841a6496797787b",
+    "tests/init.pp": "c07ed8c6761db6bb15c29da240d0c131",
+    "metadata.json": "d34d0b70aba36510fbc2df4e667479ef",
+    "spec/spec.opts": "a600ded995d948e393fbe2320ba8e51c",
+    "manifests/init.pp": "9c8553fd4154b117f2db9afe32085636",
+    "Modulefile": "9b1ad4c564a18c8fbe44cab61a4157ac"
+  },
+  "source": ""
+}

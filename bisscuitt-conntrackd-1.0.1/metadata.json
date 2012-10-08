@@ -1,0 +1,37 @@
+{
+  "author": "Ian Bissett",
+  "source": "git://github.com/bisscuitt/puppet-module-conntrackd.git",
+  "types": [
+
+  ],
+  "project_page": "https://github.com/bisscuitt/puppet-module-conntrackd",
+  "description": "Install and manages to conntrackd service to help manage stateful firewall failover",
+  "summary": "Manages conntrackd service",
+  "dependencies": [
+    {
+      "name": "puppetlabs-stdlib",
+      "version_requirement": ">= 2.3.1"
+    }
+  ],
+  "name": "bisscuitt-conntrackd",
+  "version": "1.0.1",
+  "checksums": {
+    "examples/conntrackd-mcast.pp": "fde02ce5f6d94b4cd715ee1d5992d38e",
+    "manifests/params.pp": "51a9f58c1fe59c3e8c223f0670279177",
+    "examples/remove-conntrackd.pp": "e296c81b5ddab1395ed06d43e25ddb00",
+    "manifests/package.pp": "203345480daffa7df715483371e7e774",
+    "README.md": "186a4e468e40f4d38b16bc79882dd76a",
+    "examples/conntrackd-udp.pp": "403513627fbead141bfa5e0b3a28b353",
+    "lib/facter/nf_conntrack_max.rb": "501483fb13547e1ac74fc7f9b7f2ea39",
+    "examples/conntrackd.pp": "01fb4382eac9f8e2e1f4c91a3fc0acbf",
+    "manifests/config.pp": "1291796bef833ecc5d30fced913da169",
+    "NOTICE": "b70516c106beaee3679e427d486ab58b",
+    "CREDITS": "ed3b4b7d9c7ce61042b0e3c17ece19b9",
+    "templates/conntrackd.conf.erb": "a3fff8b2033b6e6c74ead9cdb9e122bb",
+    "manifests/init.pp": "abadaeda66b2205e50f92166a7a39271",
+    "COPYING": "69f47b4c4740706809d148a9d0b837b4",
+    "Modulefile": "793e4c11cba4a5650325c4e79312a275",
+    "manifests/service.pp": "2f653d9b8a577dfe26ea594e28c8d9ef"
+  },
+  "license": "Apache License 2.0"
+}

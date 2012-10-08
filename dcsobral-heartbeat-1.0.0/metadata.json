@@ -1,0 +1,22 @@
+{
+  "name": "dcsobral-heartbeat",
+  "dependencies": [
+
+  ],
+  "author": "",
+  "license": "",
+  "version": "1.0.0",
+  "checksums": {
+    "manifests/definitions/heartbeat.pp": "108609a3e2c5b1b2a7cb99fef4ad3302",
+    "README": "d7e5506cc85515ab99d1e6a6a33b57d1",
+    "templates/authkeys.erb": "0f99f241a0adbde91d15f8f80def0ba7",
+    "templates/haresources.erb": "64ed50624c58a4146c41323cf82598b9",
+    "templates/ha.cf.erb": "5bd48f1afcace1a85311a0a5bbdbe643",
+    "Modulefile": "fb91fabf5f2ce89480213b57b056a601",
+    "manifests/init.pp": "ed8e45e3de996711bcf2324b04e9d8ea"
+  },
+  "types": [
+
+  ],
+  "source": ""
+}

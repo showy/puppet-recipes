@@ -1,0 +1,29 @@
+{
+  "checksums": {
+    "templates/virtual_server.erb": "35d858fa684c9edb8e8c0e1e9aa92d2b",
+    "manifests/defines/exported_real_server.pp": "346dab884883ee6b84e58d47295b4fcb",
+    "manifests/defines/virtual_server.pp": "532933aae09aa6769261a6129db83e10",
+    "manifests/classes/server.pp": "e418129e1b04c4b6419de4039d9fef35",
+    "manifests/defines/real_server.pp": "9899b1343e8e226267e395027db290d6",
+    "lib/puppet/parser/functions/genpasswd.rb": "28bfded988a796f8385cbd6fd9420330",
+    "README": "78960fae820a5610351332684c3a8af5",
+    "templates/keepalived.conf.header.erb": "b12853cc3035b70190d8f01a3b3635d9",
+    "manifests/classes/arp_config.pp": "4c55c97efb56da67ca76ef6f297353ef",
+    "files/arp_dsr.conf": "ac1c026475d697da7908df73741167a7",
+    "metadata.json": "d34d0b70aba36510fbc2df4e667479ef",
+    "templates/real_server.erb": "8af15ea20a3a2e5b021d196b085f7c91",
+    "manifests/init.pp": "bcb3a2007eb21843122d1e1bb327ecd1",
+    "Modulefile": "3d4ba358bae9fdf97968ca592a1662ae"
+  },
+  "dependencies": [
+    {
+      "version_requirement": ">= 1.0.0",
+      "name": "DavidSchmitt/common"
+    }
+  ],
+  "version": "1.0.0",
+  "name": "BenoitCattie-keepalived",
+  "types": [
+
+  ]
+}

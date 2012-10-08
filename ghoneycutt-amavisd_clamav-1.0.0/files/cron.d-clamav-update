@@ -1,0 +1,10 @@
+# This file is being maintained by Puppet.
+# DO NOT EDIT
+
+## Adjust this line...
+MAILTO=root
+
+## It is ok to execute it as root; freshclam drops privileges and becomes
+## user 'clamav' as soon as possible
+# run every 3 hours
+0 */3 * * * root /usr/share/clamav/freshclam-sleep

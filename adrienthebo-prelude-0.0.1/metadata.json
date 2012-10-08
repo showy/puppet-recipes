@@ -1,0 +1,32 @@
+{
+  "dependencies": [
+
+  ],
+  "version": "0.0.1",
+  "summary": "Deploy Prelude IDS and Prewikka",
+  "types": [
+
+  ],
+  "description": "Manage Puppet Enterprise upgrades",
+  "project_page": "https://github.com/adrienthebo/puppet-prelude",
+  "checksums": {
+    "manifests/sensor/lml.pp": "7d89af1bca97e8fea1ea525c6c88ea3b",
+    "Modulefile": "690e4fc6bb037f25d04e062158e96a37",
+    "files/etc/prewikka/prewikka.conf": "5a9c9411a83e46daea4f9bef415b3113",
+    "files/etc/default/prelude-manager": "6ab4855e6e8b40f06bb98397ec612fea",
+    "manifests/sensor/ossec.pp": "c0e7a67c70387cf2f160df1aba3ce984",
+    "manifests/prewikka.pp": "729e79568ba62d5cb89fe6e70df8594b",
+    "files/etc/prelude-manager/prelude-manager.conf": "785a04f846b7beef3448697de6edfa7c",
+    "templates/prewikka.conf.erb": "88d88e7c63c9d9166715cedbf632ac97",
+    "manifests/manager.pp": "0d1dc5654b3c311acce28b63fc93d2ce",
+    "manifests/init.pp": "952d281035ace84f1a76aed6fdf27420",
+    "files/etc/dbconfig-common/prewikka.conf": "f541dee583c34371c353763c6f534d00",
+    "manifests/base.pp": "8e36ba8f5641067396541b7e27f9ef34",
+    "files/etc/prelude/default/client.conf": "68f0e7d2e121ce87bc28b61961bebbe7",
+    "files/etc/dbconfig-common/prelude-manager.conf": "ac186931d15f2552f34756a843e256db"
+  },
+  "license": "Apache 2.0",
+  "source": "https://github.com/adrienthebo/puppet-prelude",
+  "name": "adrienthebo-prelude",
+  "author": "Adrien Thebo <adrien@puppetlabs.com>"
+}

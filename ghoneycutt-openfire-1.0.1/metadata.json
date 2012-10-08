@@ -1,0 +1,31 @@
+{
+  "name": "ghoneycutt-openfire",
+  "dependencies": [
+    {
+      "name": "ghoneycutt/apache",
+      "version_requirement": ">= 1.0.0"
+    },
+    {
+      "name": "ghoneycutt/mysql",
+      "version_requirement": ">= 1.0.0"
+    }
+  ],
+  "author": "",
+  "license": "",
+  "version": "1.0.1",
+  "types": [
+
+  ],
+  "checksums": {
+    "spec/spec_helper.rb": "ca19ec4f451ebc7fdb035b52eae6e909",
+    "files/openfire.sql": "c93beb45ed1c0425bf42ff52cb9f5376",
+    "README": "e0f68fd46855dc237ac3bc63a3602252",
+    "files/openfire_mysql.sql": "b666d3bee2e6ee3520f03ea53b2c25e0",
+    "tests/init.pp": "e52f66003af6517da262997b4d9b668b",
+    "metadata.json": "d34d0b70aba36510fbc2df4e667479ef",
+    "spec/spec.opts": "a600ded995d948e393fbe2320ba8e51c",
+    "manifests/init.pp": "e3dcd806eb8e07538a4d653f3d4477a6",
+    "Modulefile": "dcec16b71dfb3ba25f897080f4b6b5b9"
+  },
+  "source": ""
+}

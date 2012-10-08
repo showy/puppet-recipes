@@ -1,0 +1,8 @@
+amavisd_clamav
+
+Released 20100629 - Garrett Honeycutt - GPLv2
+
+centos's amavisd-new package contains clamav files and functionality
+since they are comingled at the package level, they are being kept
+together here as well, to avoid tracking logical dependencies between
+two modules

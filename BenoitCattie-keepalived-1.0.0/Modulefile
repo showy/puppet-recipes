@@ -1,0 +1,5 @@
+name    'BenoitCattie-keepalived'
+version '1.0.0'
+
+## Add dependencies, if any:
+dependency 'DavidSchmitt/common', '>= 1.0.0'

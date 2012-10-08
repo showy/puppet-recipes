@@ -1,0 +1,17 @@
+
+<VirtualHost <%= vhost %>:<%= port %>>
+        ServerName <%= vhost %>
+
+        <Location />
+                SetHandler mod_python
+                PythonHandler prewikka.ModPythonHandler
+                PythonOption PrewikkaConfig /etc/prewikka/prewikka.conf
+        </Location>
+
+        <Location /prewikka>
+                SetHandler None
+        </Location>
+
+        Alias /prewikka /usr/share/prewikka/htdocs
+</VirtualHost>
+

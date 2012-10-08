@@ -1,0 +1,35 @@
+{
+  "summary": "Puppet ssh Module",
+  "version": "1.0.0",
+  "description": "Module for configuring ssh.\n\nTested on Debian GNU/Linux 6.0 Squeeze and Ubuntu 10.4 LTS and 12.04 LTS with\nPuppet 2.6 and 2.7. Patches for other operating systems are welcome.",
+  "author": "Eivind Uggedal <eivind@uggedal.com>",
+  "types": [
+
+  ],
+  "license": "MIT License",
+  "source": "git://github.com/attachmentgenie/puppet-module-ssh.git",
+  "project_page": "https://github.com/attachmentgenie/puppet-module-ssh",
+  "name": "attachmentgenie-ssh",
+  "checksums": {
+    "tests/server.pp": "d41d8cd98f00b204e9800998ecf8427e",
+    "Modulefile": "366643f73c17b2f198976f8506648816",
+    "tests/client.pp": "8281bd15019d7327806c64717c7f395d",
+    "templates/sshd_config.erb": "5c7eb4c1bcbf13d5c6a156a25ee6b792",
+    "manifests/init.pp": "e8351a37b6bc62e817b248dee644eb2a",
+    "Gemfile": "0a275f1d64df25282170d15201432745",
+    "manifests/client.pp": "133b1b5a31a0b8de4947dc3670016d58",
+    "manifests/user.pp": "31650bd61065839c953490dcb507b2c8",
+    "manifests/server.pp": "404c7ab7f7ac5317924c5029837771b2",
+    "LICENSE": "53fb7bdc23e16d0ea7b01360fc70d320",
+    "tests/user.pp": "d41d8cd98f00b204e9800998ecf8427e",
+    "metadata.json": "be538c7e8a75078895ba9803fba6cb90",
+    "README.md": "64f1032771171a84543e42e7a5973c3f",
+    "Rakefile": "9b80b157fe8bf8ee3975c7dec8524204"
+  },
+  "dependencies": [
+    {
+      "version_requirement": ">=2.2.1",
+      "name": "puppetlabs/stdlib"
+    }
+  ]
+}

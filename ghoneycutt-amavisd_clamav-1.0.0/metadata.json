@@ -1,0 +1,29 @@
+{
+  "name": "ghoneycutt-amavisd_clamav",
+  "dependencies": [
+    {
+      "name": "ghoneycutt/spamassassin",
+      "version_requirement": ">= 1.0.0"
+    }
+  ],
+  "author": "",
+  "license": "",
+  "version": "1.0.0",
+  "types": [
+
+  ],
+  "checksums": {
+    "files/freshclam.conf": "a931ba20f088fa33c74908305a8c78f7",
+    "spec/spec_helper.rb": "ca19ec4f451ebc7fdb035b52eae6e909",
+    "files/freshclam.sysconfig": "497e59b32360345224dcd4935e6e2299",
+    "templates/amavisd.conf.erb": "e0cf5f36072d24638cd5b85903654fb6",
+    "files/cron.d-clamav-update": "62e9516eecc548d5fd8e66881ebc391c",
+    "README": "bfe7e591c31e33d9077b11b402a04e72",
+    "tests/init.pp": "5ca737db13243515b61d308b3a57dbaf",
+    "metadata.json": "d34d0b70aba36510fbc2df4e667479ef",
+    "spec/spec.opts": "a600ded995d948e393fbe2320ba8e51c",
+    "manifests/init.pp": "782e40654ae15550aaddcfb43a2032bc",
+    "Modulefile": "986894bab15bdb5b6737df534d9f0e70"
+  },
+  "source": ""
+}

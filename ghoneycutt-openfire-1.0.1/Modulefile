@@ -1,0 +1,6 @@
+name    'ghoneycutt-openfire'
+version '1.0.1'
+
+## Add dependencies, if any:
+dependency 'ghoneycutt/apache', '>= 1.0.0'
+dependency 'ghoneycutt/mysql', '>= 1.0.0'

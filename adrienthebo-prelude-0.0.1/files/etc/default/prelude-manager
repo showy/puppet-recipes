@@ -1,0 +1,4 @@
+# /etc/default/prelude-manager
+DAEMONUSER=prelude
+RUN=yes
+
